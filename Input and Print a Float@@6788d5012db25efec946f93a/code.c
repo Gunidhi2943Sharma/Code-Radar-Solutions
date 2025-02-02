@@ -1,10 +1,6 @@
-#include <stdio.h>
-
-char* welcome() {
-    return "You entered 3.14";
-}
-
-int main() {
-    printf("%s", welcome());
+#include<stdio.h>
+int main(){
+    float num; 
+    printf("You entered: %.2f\n", num);
     return 0;
 }
