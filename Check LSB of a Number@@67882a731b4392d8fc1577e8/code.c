@@ -2,5 +2,4 @@
 void main(){
     int a;
     scanf("%d", &a);
-    printf("%s",a&1?"Set":"Not set");
-}
+    printf("%s",a&1?"Set":"Not set");}
