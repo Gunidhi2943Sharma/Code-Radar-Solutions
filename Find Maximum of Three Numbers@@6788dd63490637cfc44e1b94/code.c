@@ -12,6 +12,6 @@ int main(){
     else{
         max= num3;
     } 
-    printf("%d", max);
+    printf("%d\n", max);
     return 0;
 }
