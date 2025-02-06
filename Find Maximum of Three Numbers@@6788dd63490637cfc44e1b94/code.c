@@ -4,6 +4,6 @@ int main(){
     printf("");
     scanf("%d %d %d", &a,&b,&c);
     if (a>b && b>c && c>a)
-    printf("%d");
+    printf("%d", a,b,c);
     return 0;
 }
