@@ -6,5 +6,7 @@ int main(){
     printf("Profit", selling_price);
     else if (cost_price>=selling_price) 
     printf("Loss", cost_price);
+    else
+    printf("No Profit No Loss")
     return 0;
 }
