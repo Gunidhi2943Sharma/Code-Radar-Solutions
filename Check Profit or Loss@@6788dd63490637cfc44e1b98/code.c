@@ -8,7 +8,7 @@ int main(){
     if (cost_price>selling_price){
         printf("Loss\n");
     }
-    else{
+    if (cost_price==selling_price){
         printf("No Profit No Loss\n");
     }
     return 0;
