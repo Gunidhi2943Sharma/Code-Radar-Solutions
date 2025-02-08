@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
     int n,i;
-    printf("enter your number: ");
     scanf("%d",&n);
     if(n<2){
         printf("not prime\n");
