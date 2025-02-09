@@ -3,16 +3,16 @@ int a,b;
 char o;
 scanf("%d %d %o", &a,&b,&o);
 switch(c){
-    case '+';
+    case '+':
     printf("%d", a+b);
     break;
-    case '-';
+    case '-':
     printf("%d", a-b);
     break;
-    case '*';
+    case '*':
     printf("%d", a*b);
     break;
-    case '/';
+    case '/':
     if (b!=0){
         printf("%d", a/b); break;}
     else{
