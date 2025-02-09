@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char grade;
+    char grade[100];
     scanf("c", &grade);
     if (grade==A){
          printf("Excellent");\
@@ -14,15 +14,12 @@ int main(){
     }
     else if (grade==D){
         printf("Below Average");
-
     }
     else if (grade==F){
         printf("Fail");
-
     }
     else{
         printf("Invalid");
-
     }
     return 0;
 }
