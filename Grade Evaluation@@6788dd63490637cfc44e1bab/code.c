@@ -2,7 +2,7 @@
 int main(){
     char grade;
     scanf("c", &grade);
-    if (grade=A)
+    if (grade==A)
     printf("Excellent");
     else if (grade==B)
     printf("Good");
