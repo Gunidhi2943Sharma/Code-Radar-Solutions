@@ -1,5 +1,6 @@
 #include <stdio.h>
-int a,b;
+int main(){
+    int a,b;
 char c;
 scanf("%d %d %o", &a,&b,&c);
 switch(c){
@@ -21,4 +22,5 @@ switch(c){
     default:
     printf("error");
     return 0;
+
 }
