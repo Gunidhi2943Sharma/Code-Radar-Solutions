@@ -21,5 +21,5 @@ switch(c){
     };
     default;
     printf("error");
-    return 0;
+    
 }
