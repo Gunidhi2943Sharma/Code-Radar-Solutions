@@ -8,7 +8,7 @@ int main() {
     printf("");
     scanf("%d", &n);
     
-    printf("The %dth bit is: %d\n", n, (num >> n) & 1);
+    printf("%d\n", n, (num >> n) & 1);
     
     return 0;
 }
