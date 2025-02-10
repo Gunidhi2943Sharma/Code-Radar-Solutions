@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int num, count = 0;
-    printf("Enter a number: ");
+    printf("");
     scanf("%d", &num);
     if (num == 0) { 
         printf("32\n");
