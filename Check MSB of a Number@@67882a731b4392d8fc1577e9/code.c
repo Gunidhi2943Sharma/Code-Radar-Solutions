@@ -5,9 +5,9 @@ void checkMSB(int num) {
     int msbMask = 1 << 31;
     
     if (num & msbMask) {
-        printf("MSB is set (1)\n");
+        printf("Set");
     } else {
-        printf("MSB is not set (0)\n");
+        printf("Not Set");
     }
 }
 int main() {
