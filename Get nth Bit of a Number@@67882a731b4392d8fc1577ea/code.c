@@ -8,7 +8,7 @@ int main() {
     printf("");
     scanf("%d", &n);
     
-    printf("%d\n", n, (n >> n) & 1);
+    printf("%d\n", num, (n >> n) & 1);
     
     return 0;
 }
