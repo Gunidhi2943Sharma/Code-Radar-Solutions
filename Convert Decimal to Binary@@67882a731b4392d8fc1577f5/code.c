@@ -1,19 +1,23 @@
 #include <stdio.h>
+
 void decimalToBinary(int num) {
     if (num == 0) {
         printf("0\n");
         return;
     }
-
-    int binary = 0, place = 1;
+    int binary[32];
+    int i = 0;
 
     while (num > 0) {
-        binary += (num % 2) * place;
+        binary[i] = num % 2;
         num /= 2;
-        place *= 10;
+        i++;
     }
-
-    printf("%d\n", binary);
+    for (int j = i - 1; j >= 0; j--) {
+        printf("%d", binary[j]);
+    }
+    
+    printf("\n");
 }
 
 int main() {
