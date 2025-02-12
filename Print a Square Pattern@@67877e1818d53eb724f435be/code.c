@@ -1,7 +1,10 @@
 # include<stdio.h>
 int main(){
-    for (int i=2; i<=5; i++){
-        for (int j=1; j<=4; j++){
+    int i,j;
+    int N;
+    scanf("%d", &N);
+    for (i=0; i<=N; i++){
+        for ( j=0; j<=N; j++){
             printf(" * ");
         }
     printf("\n");
