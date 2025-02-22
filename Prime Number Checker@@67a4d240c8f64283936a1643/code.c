@@ -1,4 +1,12 @@
 #include <stdio.h>
+int main() {
+    int t;
+    int num;
+    printf("");
+    scanf("%d", &t);
+    printf("%d\n", is_prime(num));
+    return 0;
+}
 int is_prime(int num) {
     if (num < 2) {
         return 0;  
@@ -10,11 +18,4 @@ int is_prime(int num) {
     }
     return 1; 
 }
-int main() {
-    int t;
-    int num;
-    printf("");
-    scanf("%d", &t);
-    printf("%d\n", is_prime(num));
-    return 0;
-}
+
