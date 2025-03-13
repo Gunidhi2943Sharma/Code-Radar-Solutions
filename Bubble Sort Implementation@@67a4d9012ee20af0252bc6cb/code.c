@@ -12,14 +12,13 @@ void bubbleSort(int arr[], int n) {
         }
     }
 }
-
 int main() {
     int n;
-    printf("Enter the number of digits: ");
+    printf("");
     scanf("%d", &n);
 
     int arr[n];
-    printf("Enter the number: ");
+    printf("");
     
     char num[n + 1];  
     scanf("%s", num); 
@@ -27,7 +26,7 @@ int main() {
         arr[i] = num[i] - '0';
     }
     bubbleSort(arr, n);
-    printf("Sorted number: ");
+    printf("");
     for (int i = 0; i < n; i++) {
         printf("%d", arr[i]);
     }
