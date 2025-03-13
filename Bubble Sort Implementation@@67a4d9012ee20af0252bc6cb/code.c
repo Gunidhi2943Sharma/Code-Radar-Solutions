@@ -4,7 +4,7 @@ void bubbleSort(int arr[], int n) {
     int temp;
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - 1 - i; j++) {
-            if (arr[j] > arr[j + 1]) { 
+            if (arr[j] > arr[j + 1]) {  
                 temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
@@ -20,12 +20,13 @@ int main() {
 
     int arr[n];
     printf("Enter the number: ");
+    
+    char num[n + 1];  
+    scanf("%s", num); 
     for (int i = 0; i < n; i++) {
-        scanf("%1d", &arr[i]); 
+        arr[i] = num[i] - '0';
     }
-
     bubbleSort(arr, n);
-
     printf("Sorted number: ");
     for (int i = 0; i < n; i++) {
         printf("%d", arr[i]);
@@ -34,3 +35,4 @@ int main() {
 
     return 0;
 }
+
