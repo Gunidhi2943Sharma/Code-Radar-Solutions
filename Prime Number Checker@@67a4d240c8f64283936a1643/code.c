@@ -1,11 +1,21 @@
-def is_prime(n):
-    if n < 2:
-        return 0
-    for i in range(2, int(n ** 0.5) + 1):
-        if n % i == 0:
-            return 0
-    return 1
-
-# Example usage:
-n = int(input("Enter a positive integer: "))
-print(is_prime(n))
+#include <stdio.h>
+int is_prime(int n) {
+    if (n < 2)
+        return 0;
+    for (int i = 2; i * i <= n; i++) {
+        if (n % i == 0)
+            return 0;
+    }
+    return 1;
+}
+int main() {
+    int num;
+    printf("Enter a positive integer: ");
+    scanf("%d", &num);
+    if (is_prime(num)) {
+        printf("%d is a prime number.\n", num);
+    } else {
+        printf("%d is not a prime number.\n", num);
+    }
+    return 0;
+}
