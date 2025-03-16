@@ -10,12 +10,12 @@ int is_prime(int n) {
 }
 int main() {
     int num;
-    printf("Enter a positive integer: ");
+    printf("");
     scanf("%d", &num);
     if (is_prime(num)) {
-        printf("%d is a prime number.\n", num);
+        printf("%d", num);
     } else {
-        printf("%d is not a prime number.\n", num);
+        printf("%d", num);
     }
     return 0;
 }
